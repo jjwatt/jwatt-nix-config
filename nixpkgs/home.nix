@@ -78,11 +78,8 @@ antigen apply
     config = { theme = "ansi-dark";};
   };
 
-  programs = {
-    alacritty.enable = true;
-    info.enable = true;
-    man.enable = true;
-    readline.enable = true;
+  programs.jq = {
+    enable = true;
   };
 
   programs.direnv = {
@@ -95,6 +92,13 @@ antigen apply
     enable = true;
     enableSshSupport = true;
     defaultCacheTtl = 1800;
+  };
+
+  programs = {
+    alacritty.enable = true;
+    info.enable = true;
+    man.enable = true;
+    readline.enable = true;
   };
 
   # X setup; untested
