@@ -10,9 +10,11 @@ in
 
   home.packages = with pkgs; [
     antigen
+    cheat
     ix
     jq
-    mc
+    meld
+    riot-desktop
     ripgrep
   ];
 
